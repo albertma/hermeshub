@@ -104,7 +104,7 @@ export default function HomePage() {
             {
               icon: <ShieldCheck className="h-5 w-5 text-green-500" />,
               title: "Security-First",
-              desc: "Every PR is automatically scanned by our GitHub Action against 50+ threat rules across 8 categories — exfiltration, prompt injection, destructive commands, obfuscation, hardcoded secrets, network abuse, env abuse, and supply-chain attacks. Critical findings block the merge. No manual review needed.",
+              desc: "Every PR is automatically scanned by our GitHub Action against 65+ threat rules across 8 categories — exfiltration, prompt injection, destructive commands, obfuscation, hardcoded secrets, network abuse, env abuse, and supply-chain attacks. Critical findings block the merge. Even admins can't bypass.",
             },
             {
               icon: <Package className="h-5 w-5 text-primary" />,

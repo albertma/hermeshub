@@ -165,7 +165,7 @@ export default function SkillDetailPage() {
             </div>
 
             <div className="space-y-3">
-              <h4 className="text-sm font-medium">Automated Scan Categories (50+ rules)</h4>
+              <h4 className="text-sm font-medium">Automated Scan Categories (65+ rules)</h4>
               {[
                 { label: "Data Exfiltration", desc: "curl/wget POST, DNS exfil, Python requests.post, fetch() to unknown hosts" },
                 { label: "Prompt Injection", desc: "\"Ignore previous instructions\", ChatML system tags, DAN mode, jailbreak patterns" },
