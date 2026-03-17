@@ -2,7 +2,6 @@ import { Link, useLocation } from "wouter";
 import { Moon, Sun, Menu, X } from "lucide-react";
 import { useTheme } from "@/components/ThemeProvider";
 import { Button } from "@/components/ui/button";
-import { PerplexityAttribution } from "@/components/PerplexityAttribution";
 import { useState } from "react";
 
 function HermesLogo() {
@@ -143,7 +142,6 @@ export function Layout({ children }: { children: React.ReactNode }) {
               Compatible with the <a href="https://agentskills.io/specification" target="_blank" rel="noopener noreferrer" className="text-primary hover:underline">agentskills.io</a> open standard.
               Not affiliated with Nous Research.
             </p>
-            <PerplexityAttribution />
           </div>
         </div>
       </footer>
